@@ -10,6 +10,13 @@ return {
                     "is a {C:attention}single {C:spades}"..SPADENAME.." {C:attention}card{}",
                 },
 			},
+			j_pvz_magic_taco={
+                name="Magic Taco",
+                text={ -- Placeholder
+                    "{X:mult,C:white}X#1#{} Mult if {C:attention}played hand{}",
+                    "is a {C:attention}single {C:spades}"..SPADENAME.." {C:attention}card{}",
+                },
+			},
 		}
 	},
     misc = {
