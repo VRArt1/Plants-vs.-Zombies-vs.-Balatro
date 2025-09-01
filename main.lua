@@ -5,7 +5,7 @@ local atlas_path_hc = 'pvz_hc.png' -- Filename for the high-contrast version of 
 local suits = {'hearts', 'clubs', 'diamonds', 'spades'} -- Which suits to replace
 local ranks = {'2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', "King", "Ace",} -- Which ranks to replace
 
-local description = 'Test' -- English-language description, also used as default
+local description = 'Plants vs. Zombies' -- English-language description, also used as default
 
 -- Config
 pvz_config = SMODS.current_mod.config
