@@ -34,10 +34,6 @@ SMODS.Atlas{
 -- assert(SMODS.load_file("jokers.lua"))() -- Testing
 SMODS.load_file("jokers.lua")()
 
--- Malverk file
--- assert(SMODS.load_file("malverk.lua"))() -- Testing
--- SMODS.load_file("malverk.lua")()
-
 -- Modicon
 SMODS.Atlas {
   key = 'modicon',
