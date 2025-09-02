@@ -128,7 +128,7 @@ SMODS.current_mod.extra_tabs = function()
 						-- {
 							-- n = G.UIT.T,
 							-- config = {
-							  -- text = localize("helluvacredits_joker_logic"),
+							  -- text = "Joker Logic: ",
 							  -- shadow = true,
 							  -- scale = scale * 0.8,
 							  -- colour = G.C.UI.TEXT_LIGHT

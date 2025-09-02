@@ -7,7 +7,6 @@
 	"prefix": "pvz",
 	"main_file": "main.lua",
 	"priority": 0,
-	"badge_colour": "d80007",
-	"version": "1.0.0",
-	"dependencies": ["malverk"],
+	"badge_colour": "aedd25",
+	"version": "0.5.0",
 }

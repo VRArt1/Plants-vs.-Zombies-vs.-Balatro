@@ -1,6 +1,8 @@
 -- Crazy Dave
 SMODS.Joker {
 	key = 'crazy_dave',
+	no_collection = true,
+	in_pool = function(self) return false end,
 	blueprint_compat = true,
 	atlas = 'pvz_jokers',
 	pos = { x = 0, y = 0 },
@@ -26,6 +28,8 @@ SMODS.Joker {
 }
 SMODS.Joker {
 	key = 'magic_taco',
+	no_collection = true,
+	in_pool = function(self) return false end,
 	blueprint_compat = true,
 	atlas = 'pvz_jokers',
 	pos = { x = 1, y = 0 },
