@@ -22,7 +22,7 @@ This mod adds the following **11** new consumables.
 * Taco - Gives Diamond card.
 * Water Can - +1 hand size.
 * Shovel - +1 discard.
-* Fertilizer - Upgrade 1 selected card 1 card rank.
+* Fertilizer - Upgrade 2 selected card 1 card rank.
 * Bug Spray - ?
 
 ## Usage
