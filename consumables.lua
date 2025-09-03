@@ -367,7 +367,7 @@ SMODS.Consumable{ -- Fertilizer
     -- LOGIC GOES HERE
 	use = function(self, card, area, copier)
         local used_card = copier or card
-        if #G.hand.highlighted == 2 then
+        if #G.hand.highlighted <= 2 then
             G.E_MANAGER:add_event(Event({
                 trigger = 'after',
                 delay = 0.4,
@@ -426,7 +426,7 @@ SMODS.Consumable{ -- Fertilizer
         end
     end,
     can_use = function(self, card)
-        return (#G.hand.highlighted == 2)
+        return (#G.hand.highlighted <= 2)
     end
 }
 
