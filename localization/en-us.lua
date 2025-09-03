@@ -20,12 +20,12 @@ return {
 					"But you can just call me Crazy Dave."
                 },
 			},
-			j_pvz_magic_taco={
-                name="Magic Taco",
+			j_pvz_zombie={
+                name="Zombie",
                 text={ -- Placeholder
                     -- "{X:mult,C:white}X#1#{} Mult if {C:attention}played hand{}",
                     -- "is a {C:attention}single {C:spades}"..SPADENAME.." {C:attention}card{}",
-					"I am not worth $1,000."
+					"We are lost."
                 },
 			},
 		}
@@ -39,12 +39,14 @@ return {
 			-- Wins
 			
 			pvz_crazydavewin = {'YOU WIN!!'},
+			pvz_zombiewin = {'Your delicious brain winz.'},
 
 		
 			-- Losses
 			
 			pvz_crazydaveloss = {'Defend your shins!'},
 			pvz_crazydaveloss2 = {'You know, they used to', 'call me "Fog Man".'},
+			pvz_zombieloss = {'You loze.'},
 		}
 	}
 }

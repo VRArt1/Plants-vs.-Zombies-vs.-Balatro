@@ -27,7 +27,7 @@ SMODS.Joker {
 	end
 }
 SMODS.Joker {
-	key = 'magic_taco',
+	key = 'zombie',
 	no_collection = true,
 	in_pool = function(self) return false end,
 	blueprint_compat = true,

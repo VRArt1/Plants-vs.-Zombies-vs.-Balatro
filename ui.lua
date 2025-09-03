@@ -33,10 +33,27 @@ SMODS.current_mod.config_tab = function()
 					n = G.UIT.C, config = { padding = 0.1, emboss = 0.5, align = "cl", -- colour = G.C.RED 
 					},
 					nodes = {
+						-- Consumables
+						{
+							n = G.UIT.R,
+							config = { tooltip = {text = {"Adds new consumables."}},},
+							nodes = {
+								{
+									n = G.UIT.C,
+									nodes = {
+									  create_toggle {
+										label = "Add Consumables",
+										ref_table = pvz_config,
+										ref_value = 'pvzconsumables'
+										},
+									},
+								},
+							}
+						},
 						-- Quips
 						{
 							n = G.UIT.R,
-							config = { tooltip = {text = {"Adds custom quips."}},},
+							config = { tooltip = {text = {"Adds new quips."}},},
 							nodes = {
 								{
 									n = G.UIT.C,

@@ -24,6 +24,12 @@ if pvz_config.pvzquips then
 else
 end
 
+-- Consumables
+if pvz_config.pvzconsumables then
+    SMODS.load_file("consumables.lua")()
+else
+end
+
 -- UI Suits
 
 if pvz_config.pvzshopsign then -- Check if Shop Sign on.
