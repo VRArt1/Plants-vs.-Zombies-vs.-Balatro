@@ -63,7 +63,7 @@ return {
 			c_pvz_watercan={
                 name="Water Can",
                 text={
-                    "{C:attention}+1{} hand size",
+                    "{C:attention}+1{} hand",
                 },
 			
 			},
