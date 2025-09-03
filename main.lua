@@ -24,6 +24,21 @@ if pvz_config.pvzquips then
 else
 end
 
+-- UI Suits
+
+if pvz_config.pvzshopsign then -- Check if Shop Sign on.
+	SMODS.Atlas{
+		key = 'shop_sign',
+		atlas_table = 'ANIMATION_ATLAS',
+		px = 113,
+		py = 57,
+		path = "pvz_store_sign.png",
+		prefix_config = {key = false},
+		frames = 4,
+	}
+else
+end
+
 -- Jokers
 SMODS.Atlas{  
         key = 'pvz_jokers',

@@ -1,3 +1,10 @@
+if pvz_config.pvzshopsign then
+-- CRAZYDAVESTORETEXT = "See if you can\'t find something you like!"
+CRAZYDAVESTORETEXT = "Have a look!"
+else
+CRAZYDAVESTORETEXT = "Improve your run!"
+end
+
 return {
 	descriptions = {
 
@@ -24,6 +31,9 @@ return {
 		}
 	},
     misc = {
+		dictionary = {
+			ph_improve_run = CRAZYDAVESTORETEXT,
+			},
 		quips = {
 		
 			-- Wins

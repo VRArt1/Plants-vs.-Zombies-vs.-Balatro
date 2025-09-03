@@ -50,6 +50,23 @@ SMODS.current_mod.config_tab = function()
 								},
 							}
 						},
+						-- Shop Sign
+						{
+							n = G.UIT.R,
+							config = { tooltip = {text = {"Changes shop sign and text."}},},
+							nodes = {
+								{
+									n = G.UIT.C,
+									nodes = {
+									  create_toggle {
+										label = "Shop Sign",
+										ref_table = pvz_config,
+										ref_value = 'pvzshopsign'
+										},
+									},
+								},
+							}
+						},
 					},
 				},
 			},
@@ -137,7 +154,7 @@ SMODS.current_mod.extra_tabs = function()
 						-- {
 							-- n = G.UIT.T,
 							-- config = {
-							  -- text = "factwixard",
+							  -- text = "seu pai",
 							  -- shadow = true,
 							  -- scale = scale * 0.8,
 							  -- colour = HEX("d80007")
