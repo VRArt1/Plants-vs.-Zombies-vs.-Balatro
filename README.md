@@ -9,13 +9,14 @@ This mod aims to be an overhaul of Balatro adding in content as if it was an off
 
 ## Jokers
 This mod adds the following **2** new jokers.
-* Crazy Dave (Common) - Create a **Tarot** card each played hand.
+* Crazy Dave (Common) - Create a **Tarot** card each end of round.
 * Zombie (Common) - Retrigger all played **2 - 8** ranked cards.
 
 ## Consumables
 This mod adds the following **11** new consumables.
 * Sun - Upgrades 1 card to **Ace**.
 * Car Key - Adds 1 new booster slot in store.
+* Present - ?
 * Coin - Gives **$10**.
 * Gold Coin - Gives **$50**.
 * Diamond - Gives **$1000**.
@@ -23,7 +24,7 @@ This mod adds the following **11** new consumables.
 * Water Can - +1 hand size.
 * Shovel - +1 discard.
 * Fertilizer - Upgrade 2 selected card 1 card rank.
-* Bug Spray - ?
+* Bug Spray - Add random edition to a random Joker.
 
 ## Usage
 Download the mod along with the below dependencies and place within the Balatro mods folder. Use the config within the mod menu to enable and disable options and restart to apply.
