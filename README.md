@@ -16,7 +16,7 @@ This mod adds the following **2** new jokers.
 This mod adds the following **11** new consumables.
 * Sun - Upgrades 1 card to **Ace**.
 * Car Key - Adds 1 new booster slot in store.
-* Present - ?
+* Present - Redeems random voucher.
 * Coin - Gives **$10**.
 * Gold Coin - Gives **$50**.
 * Diamond - Gives **$1000**.
