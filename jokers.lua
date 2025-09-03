@@ -1,7 +1,7 @@
 -- Crazy Dave
 SMODS.Joker {
 	key = 'crazy_dave',
-	no_collection = true,
+	-- no_collection = true,
 	in_pool = function(self) return false end,
 	blueprint_compat = true,
 	atlas = 'pvz_jokers',
@@ -28,7 +28,7 @@ SMODS.Joker {
 }
 SMODS.Joker {
 	key = 'zombie',
-	no_collection = true,
+	-- no_collection = true,
 	in_pool = function(self) return false end,
 	blueprint_compat = true,
 	atlas = 'pvz_jokers',
