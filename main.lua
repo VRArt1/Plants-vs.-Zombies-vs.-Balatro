@@ -27,6 +27,7 @@ end
 -- Consumables
 if pvz_config.pvzconsumables then
     SMODS.load_file("consumables.lua")()
+	SMODS.load_file("boosters.lua")()
 else
 end
 
@@ -52,8 +53,8 @@ SMODS.Atlas{
         py = 95,
         path = "pvz_jokers.png",
     }
--- assert(SMODS.load_file("jokers.lua"))() -- Testing
-SMODS.load_file("jokers.lua")()
+assert(SMODS.load_file("jokers.lua"))() -- Testing
+-- SMODS.load_file("jokers.lua")()
 
 -- Modicon
 SMODS.Atlas {

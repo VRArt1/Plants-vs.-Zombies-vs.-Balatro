@@ -10,7 +10,7 @@ return {
 		Tarot={
 			c_pvz_sun={
                 name="Sun",
-                text={ -- The Chariot
+                text={
                     "Enhances {C:attention}1{} selected",
                     "card into a",
 					"{C:attention}Ace",
@@ -19,8 +19,8 @@ return {
 			},
 			c_pvz_carkey={
                 name="Car Key",
-                text={ -- Overstock Voucher
-                    "{C:attention}+1{} card slot",
+                text={
+                    "{C:attention}+1{} booster slot",
                     "available in shop",
                 },
 			
@@ -28,8 +28,7 @@ return {
 			c_pvz_present={
                 name="Present",
                 text={
-                    "Gives {C:attention}3{} random",
-                    "playing cards"
+                    "Redeems random {C:attention}voucher"
                 },
 			
 			},
@@ -56,7 +55,7 @@ return {
 			},
 			c_pvz_taco={
                 name="Taco",
-                text={
+                text={ -- Add Crazy Dave requirement.
                     "Gives {C:tarot}Diamond{} card",
                 },
 			
@@ -65,7 +64,6 @@ return {
                 name="Water Can",
                 text={
                     "{C:attention}+1{} hand size",
-					"next round",
                 },
 			
 			},
@@ -73,15 +71,14 @@ return {
                 name="Shovel",
                 text={
                     "{C:attention}+1{} discard",
-					"next round",
                 },
 			
 			},
 			c_pvz_fertilizer={
                 name="Fertilizer",
-                text={ -- Strength
+                text={
                     "Increases rank of",
-					"up to {C:attention}1{} selected",
+					"up to {C:attention}2{} selected",
 					"cards by {C:attention}1",
                 },
 			
@@ -89,7 +86,8 @@ return {
 			c_pvz_bugspray={
                 name="Bug Spray",
                 text={
-                    "PLACEHOLDER",
+                    "Add random edition to a",
+					"random {C:attention}Joker{}"
                 },
 			
 			},
@@ -99,18 +97,18 @@ return {
 			-- New Jokers
 			j_pvz_crazy_dave={
                 name="Crazy Dave",
-                text={ -- Vagabond
+                text={
 					"Greetings, neighbor!",
 					"The name's Crazy Dave.",
 					"But you can just call me Crazy Dave.",
 					"Crazy Dave creates a {C:tarot}Tarot",
-                    "card each played hand",
+                    "card at end of each round",
                     "{C:inactive}(Must have room)",
                 },
 			},
 			j_pvz_zombie={
                 name="Zombie",
-                text={ -- Mime
+                text={
 				"Retrigger all",
 				"played {C:attention}2 - 8{} ranked cards",
                 },
