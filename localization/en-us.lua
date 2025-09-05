@@ -98,12 +98,12 @@ return {
 			j_pvz_crazy_dave={
                 name="Crazy Dave",
                 text={
-					"Greetings, neighbor!",
+					{"Greetings, neighbor!",
 					"The name's Crazy Dave.",
-					"But you can just call me Crazy Dave.",
+					"But you can just call me Crazy Dave.",},{
 					"Crazy Dave creates a {C:tarot}Tarot",
                     "card at end of each round",
-                    "{C:inactive}(Must have room)",
+                    "{C:inactive}(Must have room)",}
                 },
 			},
 			j_pvz_zombie={
